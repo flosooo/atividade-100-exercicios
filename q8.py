@@ -2,7 +2,7 @@
 
 distancia_metros = float(input("Informe a distância em metros: "))
 print(f"Kilometros: {distancia_metros / 1000}km\n"
-      f"Hectometros: {distancia_metros / 100}Hm\n"
+      f"Hectômetros: {distancia_metros / 100}Hm\n"
       f"Decâmetros: {distancia_metros / 10}Dam\n"
       f"Decímetros: {distancia_metros * 10}Dm\n"
       f"Centimetros: {distancia_metros * 100}Cm\n"

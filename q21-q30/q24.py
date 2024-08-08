@@ -3,4 +3,4 @@
 # viagens até 200Km e R$0.45 para viagens mais longas.
 distancia = float(input("Digite a distância que deseja percorrer em Km: "))
 preco = distancia * 0.45 if distancia > 200 else distancia * 0.5
-print(f"O preço da passagem é R${preco:.3f}")
+print(f"O preço da passagem é R${preco:.2f}")

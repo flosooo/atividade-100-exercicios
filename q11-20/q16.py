@@ -4,4 +4,4 @@
 anos = int(input("Há quantos anos você fuma?\n"))
 cigarros = int(input("Quantos cigarros você fuma por dia?\n"))
 dias = anos * 365 * cigarros * 10/1440
-print(f"Aproximadamente, você perdeu {round(dias,0)} possíveis dias de vida")
+print(f"Aproximadamente, você perdeu {dias:.0f} possíveis dias de vida")

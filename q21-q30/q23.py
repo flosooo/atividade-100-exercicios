@@ -13,4 +13,4 @@ elif sexo.lower().startswith("mas"):
   valor = valor - (valor * 0.05)
 else:
   print("Nenhum desconto pôde ser aplicado.")
-print(f"{nome.capitalize()}, seu valor a pagar com desconto é: R${round(valor, 2)}")
+print(f"{nome.capitalize()}, seu valor a pagar com desconto é: R${valor:.2f}")

@@ -3,4 +3,4 @@
 # Calcule o preço total a pagar,  sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado. 
 dias = int(input("Por quantos dias o carro foi alugado?\n"))
 km = float(input("Quantos km foram percorridos?\n"))
-print(f"O valor total do alugel de {dias} dias é R$: {(dias * 90) + (km * 0.20)}")
+print(f"O valor total do alugel de {dias} dias é R$: {(dias * 90) + km * 0.20:.1f}")

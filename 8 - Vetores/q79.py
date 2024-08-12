@@ -5,16 +5,16 @@
 vetor = []
 pos = []
 for i in range(10):
-  num = int(input('Digite um número: '))
-  vetor.append(num)
+    num = int(input('Digite um número: '))
+    vetor.append(num)
 print(vetor)
 
 for i in range(len(vetor)):
-  if vetor[i] % 2 == 0:
-    print(f'{i+1}°', end=' ')
-    pos.append(i+1)
-  else:
-    print('X',end=' ')
-    
+    if vetor[i] % 2 == 0:
+        print(f'{i+1}°', end=' ')
+        pos.append(i+1)
+    else:
+        print('X',end=' ')
+
 print('\n' * 2)
 print('Os números pares estão nas posições: ', ', '.join(map(str, pos)))

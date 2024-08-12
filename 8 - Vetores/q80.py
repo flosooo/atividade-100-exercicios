@@ -8,17 +8,17 @@ import random
 vetor = []
 pos = []
 for i in range(30):
-  vetor.append(random.randrange(1, 15))
+    vetor.append(random.randrange(1, 15))
 
 key = int(input('Digite a chave: '))
 
 print(vetor)
 for i in range(len(vetor)):
-  if vetor[i] == key:
-    print(f'{i+1}°', end=' ')
-    pos.append(i+1)
-  else:
-    print('X',end=' ')
+    if vetor[i] == key:
+        print(f'{i+1}°', end=' ')
+        pos.append(i+1)
+    else:
+        print('X',end=' ')
 
 print('\n' * 2)
 print('Os números chave estão nas posições: ', ', '.join(map(str, pos)))

@@ -3,17 +3,17 @@
 # APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como
 # parâmetro o resultado retornado pela função Media().
 
-def situacao(media):
-    if media >= 7:
+def situacao(nota_media):
+    if nota_media >= 7:
         print("Aprovado!")
-    elif media >= 5:
+    elif nota_media >= 5:
         print("Recuperação..!")
     else:
         print("Reprovado!")
 
 
 def media(nota1, nota2):
-   return (nota1+nota2)/2
+    return (nota1+nota2)/2
 
 
 n1 = int(input('Digite a primeira nota: '))

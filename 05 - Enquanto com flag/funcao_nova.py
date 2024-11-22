@@ -1,0 +1,1 @@
+print("Funçao mt loka aq")
